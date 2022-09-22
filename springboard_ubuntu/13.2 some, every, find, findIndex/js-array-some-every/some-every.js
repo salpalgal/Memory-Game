@@ -94,6 +94,9 @@ Examples:
     
 */
 
+
+
+
 function hasCertainValue(arr, key, searchValue) {
     return arr.every(function(val){
         return val[key]=== searchValue
